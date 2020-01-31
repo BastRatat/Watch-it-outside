@@ -97,3 +97,23 @@ h5.card-title {
     text-transform: uppercase;
 }
 
+.author {
+    color: #17A2B8;
+    font-weight: 700;
+}
+
+.footer {
+    margin-top: 20px;
+}
+
+.pages {
+    padding-bottom: 10px;
+}
+
+.btn-dark {
+    display: inline;
+}
+
+.btn-info {
+    margin-top: 10px;
+}
