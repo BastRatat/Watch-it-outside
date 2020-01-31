@@ -1,0 +1,98 @@
+.jumbotron {
+    margin-top: 30px;
+}
+
+.article-main-title,
+.newsletter-title {
+    color: #17A2B8;
+}
+
+.company,
+.title-description {
+    color: #343a40;
+}
+
+.company {
+    text-transform: capitalize;
+}
+
+.subtitle {
+    color: #17A2B8;
+    font-size: 0.9em;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.carousel-caption > h3 {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.carousel-caption > p {
+    text-align: justify;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.navbar-toggler {
+    margin-right: 15px;
+}
+
+h1.text-uppercase {
+    letter-spacing: 2px;
+    margin-top: 30px;
+    font-family: 'Open Sans';
+}
+
+a.navbar-brand {
+    letter-spacing: 2px;
+}
+
+a.navbar-brand,
+h2.article-title,
+h5.card-title {
+   font-family: 'Open Sans';
+   font-weight: 500;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.text-center {
+    margin-top: 15px;
+}
+
+.footer-content {
+    color: black;
+}
+
+.icons {
+    padding: 10px 0;
+}
+
+.about-link {
+    text-decoration: none;
+}
+
+.form-group {
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  .form-group {
+    width: 100%;
+  }
+}
+
+.btn-newsletter {
+    text-decoration: none;
+    color: white;
+}
