@@ -4,13 +4,22 @@
     <!-- Meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="Page description. No longer than 155 characters." />
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" value="homepage">
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Watch it Outside"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://www.watchitoutside.com/"/>
+    <meta property="og:image" content="http://example.com/image.jpg"/>
+    <meta property="og:description" content="Outdoor films festivals"/>
     <!-- CSS and BS4 -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-    <!-- title -->
+    <!-- Title -->
     <title>Watch it outside Boston edition</title>
-    <!-- icon -->
-
+    <!-- Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="pictures/logo/company_logo.jpg" />
 </head>
 <body>
     <!-- navbar -->
@@ -27,7 +36,7 @@
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="preregister.html">pre-register</a>
+                            <a class="nav-link" href="preregister.html">Pre-register</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="newsletter.html">Newsletter</a>
@@ -46,16 +55,17 @@
     </section>
     <section class="container">
         <div class="row justify-content-center">
+            <!-- previous events -->
             <div class="col-xs-12 col-sm-12 col-md-5">
                 <figure>
                     <img class="img-fluid" src="pictures/film_festival/2.jpg" alt="bryant park" title="bryant park" width="400">
                     <figcaption class="font-italic text-center">Bryant Park, New-York City, NY</figcaption>
                 </figure>
-                <figure>
-                        <img class="img-fluid" src="pictures/film_festival/5.jpg" alt="about us" title="about us" width="400">
-                        <figcaption class="font-italic text-center about-link">Battery Park, New-York, NYC</figcaption>
-                </figure>
+                <div class="video embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/4UdPZcXwMrQ" allowfullscreen></iframe>
+                </div>
             </div>
+            <!-- company and event's descriptions -->
             <div class="col-xs-12 col-sm-12 col-md-7">
                 <article>
                     <h2 class="article-title">From culture to history, <strong class="company">Watch it outside</strong> offers you the best of documentary films projected on a giant screen in an extraordinary venue : the Boston Public Garden.</h2>
@@ -64,7 +74,7 @@
             </div>
         </div>
     </section>
-    <!-- cards -->
+    <!-- carousel  -->
     <section id="carousel-park" class="carousel slide" data-ride="carousel" data-interval="4000">
         <ol class="carousel-indicators">
             <li data-target="#carousel-park" data-slide-to="0" class="active"></li>
@@ -83,51 +93,53 @@
             </div>
         </div>
     </section>
+    <!-- articles  -->
     <section class="container-fluid">
         <div class="card-deck">
-            <div class="card shadow">
+            <div class="card shadow-lg">
                <div class="card-body text-center ">
                     <h5 class="card-title">30/05/2019 by <span class="author">Jake Pinkman</span></h5>
                     <img src="pictures/park/7.jpg" alt="Boston Public Garden" title="Boston Public Garden" class="img-fluid">
                     <p class="text-justify">3 interesting facts about Boston Public Garden</p>
-                    <a href="article1.html" class="btn btn-dark">Read article</a>
+                    <a href="article1.html" class="btn btn-dark stretched-link">Read article</a>
                 </div>
             </div>
-            <div class="card shadow">
+            <div class="card shadow-lg">
                <div class="card-body text-center">
                     <h5 class="card-title">24/05/2019 by <span class="author">Emily Borg</span></h5>
                     <img src="pictures/film_festival/3.jpg" alt="outdoor-movie" title="outdoor-movie" class="img-fluid">
                     <p class="text-justify">Why everyone should be watching outdoor films?</p>
-                    <a href="article2.html" class="btn btn-dark">Read article</a>
+                    <a href="article2.html" class="btn btn-dark stretched-link">Read article</a>
                 </div>
             </div>
-            <div class="card shadow">
+            <div class="card shadow-lg">
                <div class="card-body text-center">
                     <h5 class="card-title">15/05/2019 by <span class="author">Emily Borg</span></h5>
                     <img src="pictures/logo/company_logo.jpg" alt="Watch it Ouside" title="Watch it Ouside" class="img-fluid">
                     <p class="text-justify">More on Watch it Ouside. Discover our various activities.</p>
-                    <a href="article3.html" class="btn btn-dark">Read article</a>
+                    <a href="article3.html" class="btn btn-dark stretched-link">Read article</a>
                 </div>
             </div>
         </div>
     </section>
+    <!-- footer -->
     <footer class="container-fluid bg-light footer">
         <div class="row">
             <div class="col-xs-12 col-sm-12 col-md-6 text-center">
                 <h5>Follow us</h5>
                     <ul class="list-unstyled list-inline">
                         <li class="text-center list-inline-item">
-                            <a href="https://twitter.com/">
+                            <a href="https://twitter.com/" target="_blank">
                                 <img class="icons" src="icons/twitter.jpg" width="30px">
                             </a>
                         </li>
                         <li class="text-center list-inline-item">
-                            <a href="https://www.facebook.com/">
+                            <a href="https://www.facebook.com/" target="_blank">
                                 <img class="icons" src="icons/facebook.jpg" width="30px">
                             </a>
                         </li>
                         <li class="text-center list-inline-item">
-                            <a href="https://www.instagram.com/">
+                            <a href="https://www.instagram.com/" target="_blank">
                                 <img class="icons" src="icons/instagram.jpg" width="30px">
                             </a>
                         </li>
@@ -137,12 +149,12 @@
                  <h5 class="text-center">Our partners</h5>
                     <ul class="list-unstyled inline-list">
                         <li class="text-center">
-                            <a href="https://www.boston.com/">
+                            <a href="https://www.boston.com/" target="_blank">
                                 <p class="partner-link">Boston News Website</p>
                             </a>
                         </li>
                         <li class="text-center">
-                            <a href="https://www.boston.gov/parks/public-garden">
+                            <a href="https://www.boston.gov/parks/public-garden" target="_blank">
                                 <p>Boston Public Garden Website</p>
                             </a>
                         </li>
@@ -150,7 +162,6 @@
             </div>
         </div>
     </footer>
-
     <!-- Jquery, Popper.js and BS4 -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
