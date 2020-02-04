@@ -23,6 +23,11 @@
 }
 
 .carousel-inner img {
+    /* margin: auto; */
+    width: 80%;
+}
+
+.carousel-inner img {
   margin: auto;
 }
 
