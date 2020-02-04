@@ -96,6 +96,16 @@ img.icons {
     width: 50%;
 }
 
+select.form-control {
+    width: 50%;
+}
+
+@media screen and (max-width: 600px) {
+  select.form-control {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .form-group {
     width: 100%;
